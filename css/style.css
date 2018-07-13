@@ -1,0 +1,1105 @@
+body {
+	max-width: 2000px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.pixel-perfect {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
+.header-top {
+	width: 100%;
+	background-color: #eceef4;
+}
+
+.header-top::after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.header-top-content {
+	width: 1160px;
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 0;
+}
+
+.header-top-content::after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.header-top-menu {
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.ht-menu-container {
+	display: inline-block;
+	margin-right: 3px;
+	padding-left: 8px;
+	border-radius: 2px;
+	vertical-align: middle;
+	background-color: #fff;
+}
+
+.ht-menu-container:hover {
+	box-shadow: 2px 2px 10px #6d6e71;
+}
+
+.ht-menu-img {
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+}
+
+.ht-blog {
+	height: 19px;
+	width: 19px;
+	background-position: 0 0;
+}
+
+.ht-jobs {
+	height: 22px;
+	width: 19px;
+	background-position: -29px 0;
+}
+
+.ht-support {
+	height: 17px;
+	width: 18px;
+	background-position: -59px 0;
+}
+
+.ht-arabic {
+	height: 19px;
+	width: 19px;
+	background-position: -86px 0;
+}
+
+.ht-menu-text {
+	display: inline-block;
+	margin: 9px 20px 6px;
+	font-weight: 700;
+	color: #6d6e71;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.ht-menu-support {
+	margin: 9px 13px 6px;
+}
+
+.ht-menu-arabic {
+	margin: 9px 13px 6px;
+}
+
+.header-top-social {
+	display: inline-block;
+	text-align: right;
+	font-size: 0;
+}
+
+.ht-social-container {
+	display: inline-block;
+	border-left: 1px solid #dee0eb;
+	padding: 21px 0 21px 0;
+	vertical-align: middle;
+}
+
+.ht-social-container:last-child {
+	border-right: 1px solid #dee0eb;
+}
+
+.ht-social-container:hover {
+	background-color: #dee0eb;
+}
+
+.ht-fb {
+	height: 21px;
+	width: 21px;
+	margin: 0 22px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -115px 0;
+}
+
+.ht-twitter {
+	height: 21px;
+	width: 25px;
+	margin: 0 19px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -146px 0;
+}
+
+.ht-instagram {
+	height: 21px;
+	width: 22px;
+	margin: 0 19px 0 21px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -181px 0;
+}
+
+.ht-google {
+	height: 21px;
+	width: 24px;
+	margin: 0 19px 0 20px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -213px 0;
+}
+
+.header-center {
+	width: 100%;
+	border-bottom: 1px solid #eceef4;
+}
+
+.header-center-content {
+	width: 1160px;
+	margin: 0 auto;
+	padding: 61px 0 56px 0;
+	font-size: 0;
+}
+
+.header-center-content::after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.header-logo {
+	float: left;
+	width: 403px;
+	height: 93px;
+	margin-left: -17px;
+	font-size: 41px;
+	line-height: 93px;
+	text-align: center;
+	background-image: url(https://i.lensdump.com/i/Y7tac.png);
+	color: #3687c4;
+}
+
+.header-contact {
+	float: right;
+	padding-right: 35px;
+	padding-top: 66px;
+}
+
+.header-telephone {
+	position: relative;
+	display: inline-block;
+	height: 28px;
+	width: 29px;
+	margin-right: 26px;
+	vertical-align: middle;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -247px 0;
+}
+
+.header-telephone:hover {
+	background-position: -831px 0;
+}
+
+.header-telephone::after,
+.header-location::after {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 24px;
+	margin: 2px 0 0 48px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -820px 0;
+}
+
+.header-location::after {
+	margin: 5px 0 0 48px;
+}
+
+.header-location {
+	position: relative;
+	display: inline-block;
+	height: 34px;
+	width: 25px;
+	margin: 0 22px 0 17px;
+	vertical-align: middle;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -285px 0;
+}
+
+.header-location:hover {
+	background-position: -869px 0;
+}
+
+.header-mail {
+	position: relative;
+	display: inline-block;
+	height: 25px;
+	width: 30px;
+	margin-left: 23px;
+	vertical-align: middle;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -320px 0;
+}
+
+.header-mail:hover {
+	background-position: -904px 0;
+}
+
+.cloud {
+	position: absolute;
+	top: -74px;
+	left: -27px;
+	width: 227px;
+	height: 51px;
+	padding: 17px 0 13px 0;
+	border: 2px solid #d4d4d5;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #6d6e71;
+	text-align: center;
+	visibility: hidden;
+}
+
+.cloud-location {
+	left: -102px;
+	top: -71px;
+}
+
+.cloud-mail {
+	left: -173px;
+	top: -76px;
+}
+
+.cloud::after,
+.cloud::before {
+	content: "";
+    position: absolute;
+    border: 16px solid transparent;
+    border-top: 12px solid #d4d4d5;
+    left: 16px;
+    top: 47px;
+}
+
+.cloud::after {
+	border-top: 12px solid #fff;
+	top: 45px;
+}
+
+.cloud-location::after,
+.cloud-location::before {
+	left: 96px;
+}
+
+.cloud-mail::after,
+.cloud-mail::before {
+    left: 170px;
+}
+
+.header-telephone:hover .cloud {
+	visibility: visible;
+}
+
+.header-location:hover .cloud {
+	visibility: visible;
+}
+
+.header-mail:hover .cloud {
+	visibility: visible;
+}
+
+.header-bottom {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.header-bottom::after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.menu {
+	float: left;
+}
+
+.menu-container {
+	position: relative;
+	display: inline-block;
+	border-right: 1px solid #eceef4;
+	font-size: 13px;
+	font-weight: 700;
+	color: #6d6e71;
+}
+
+.menu-container:hover {
+	color: #1faae2;
+}
+
+.menu-container:hover.menu-container::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	border: 18px solid transparent;
+	border-bottom: 8px solid #1faae2;
+}
+
+.menu-home {
+	padding: 33px 17px;
+}
+
+.menu-isama {
+	padding: 33px 19px;
+}
+
+.menu-we-do {
+	padding: 33px 22px;
+}
+
+.menu-project {
+	padding: 33px 24px;
+}
+
+.menu-team {
+	padding: 33px 24px;
+}
+
+.menu-contact {
+	padding: 33px 25px;
+	border-right: 0;
+}
+
+.search {
+	float: right;
+	padding-right: 5px;
+}
+
+.search-form {
+	margin-top: 28px;
+}
+
+.search-input,
+.search-button {
+	border: none;
+	vertical-align: middle;
+	background: none;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.search-button {
+	margin-right: 11px;
+}
+
+.header-title {
+	width: 100%;
+	padding-bottom: 125px;
+	background-color: #398cc8;
+	background-image: url(https://i.lensdump.com/i/u2Ct0.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+.header-title-center {
+	position: relative;
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.main-heading {
+	position: relative;
+	z-index: 1;
+	padding: 247px 0 0 194px;
+	font-size: 58px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.header-title-center p {
+	padding-left: 302px;
+	font-size: 45px;
+	font-weight: 300;
+	color: #fff;
+	margin-top: -10px;
+}
+
+.header-title-center p::before {
+	content: "&";
+	position: absolute;
+	top: 233px;
+	left: 200px;
+	font-size: 122px;
+	font-weight: 700;
+	color: #bbedff;
+}
+
+.slider {
+	width: 755px;
+	margin: 144px 0 0 405px;
+	background-color: #f4f4f4;
+	font-size: 0;
+}
+
+.slider-image {
+	position: relative;
+	display: inline-block;
+	width: 42.65%;
+}
+
+.slider-like {
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	padding: 18px 0 19px 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.slider-like-left {
+	background-color: rgba(137, 201, 79, 0.9);
+	color: #fff;
+}
+
+.slider-like-left::before {
+	content: "";
+	display: inline-block;
+	height: 29px;
+	width: 32px;
+	vertical-align: middle;
+	margin-right: 12px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -395px 0;
+}
+
+.slider-like-left:hover {
+	background-color: rgb(137, 201, 79);
+	font-size: 16px;
+}
+
+.slider-like-right {
+	background-color: rgba(254, 235, 117, 0.9);
+	color: #cc9800;
+}
+
+.slider-like-right::before {
+	content: "";
+	display: inline-block;
+	height: 29px;
+	width: 32px;
+	vertical-align: middle;
+	margin-right: 12px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -437px 0;
+}
+
+.slider-like-right:hover {
+	background-color: rgb(254, 235, 117);
+	font-size: 16px;
+}
+
+.slider-next {
+	display: inline-block;
+	width: 14.7%;
+	padding: 101px 0 100px 0;
+}
+
+.slider-next:hover {
+	background-color: #dee0eb;
+}
+
+.slider-arrow {
+	height: 40px;
+	width: 23px;
+	margin: auto;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -479px 0;
+}
+
+.about-us {
+	width: 1160px;
+	margin: 0 auto;
+	padding: 30px 0 86px 0;
+	font-size: 0;
+	color: #6d6e71;
+}
+
+.about-container-isama {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.about-isama-image {
+	display: inline-block;
+	height: 113px;
+	width: 106px;
+	vertical-align: top;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -98px -38px;
+}
+
+.about-isama-text {
+	display: inline-block;
+	width: 72%;
+	padding: 11px 0 0 30px;
+	text-align: justify;
+}
+
+.about-us-heading {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.about-us p {
+	padding-top: 15px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+}
+
+.about-container-exist {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	text-align: right;
+}
+
+.about-exist-image {
+	display: inline-block;
+	height: 116px;
+	width: 95px;
+	margin-right: 5px;
+	vertical-align: top;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -214px -40px;
+}
+
+.about-exist-text {
+	display: inline-block;
+	width: 71.3%;
+	padding: 10px 0 0 26px;
+	text-align: justify;
+}
+
+.services {
+	width: 1160px;
+	margin: 0 auto;
+	padding-bottom: 18px;
+	font-size: 0;
+	color: #6d6e71;
+}
+
+.services::before {
+	content: "";
+	display: block;
+	width: 1160px;
+	height: 22px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: 0px -161px;
+}
+
+.services-title {
+	margin: 68px 0 75px 0;
+	text-align: center;
+}
+
+.services-title-image {
+	display: inline-block;
+	height: 115px;
+	width: 131px;
+	vertical-align: middle;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -319px -35px;
+}
+
+.services-title-text {
+	display: inline-block;
+	padding-left: 30px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.services-title-heading {
+	font-size: 44px;
+	font-weight: 700;
+}
+
+.services-title-text p {
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.services-item {
+	display: inline-block;
+	width: 50%;
+	padding: 10px 0 80px 0;
+	vertical-align: top;
+}
+
+.services-item:nth-child(2n) {
+	border-right: 1px solid #eceef4;
+}
+
+.services-item:nth-child(2n+1) {
+	text-align: right;
+}
+
+.services-item:nth-last-child(2) {
+	padding-bottom: 47px;
+}
+
+.services-item-image {
+	display: inline-block;
+	margin-top: 7px;
+	vertical-align: top;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+}
+
+.services-image-design {
+	height: 86px;
+	width: 86px;
+	background-position: -460px -65px;
+}
+
+.services-image-software {
+	height: 97px;
+	width: 88px;
+	background-position: -556px -54px;
+}
+
+.services-image-branding {
+	height: 93px;
+	width: 90px;
+	background-position: -654px -56px;
+}
+
+.services-image-mobile {
+	height: 86px;
+	width: 65px;
+	background-position: -754px -65px;
+}
+
+.services-image-interior {
+	height: 69px;
+	width: 94px;
+	background-position: -830px -82px;
+}
+
+.services-image-seo {
+	height: 81px;
+	width: 68px;
+	background-position: -934px -70px;
+}
+
+.services-item-text {
+	display: inline-block;
+	width: 72%;
+	padding-left: 30px;
+	text-align: justify;
+}
+
+.services-item-heading {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.services-item-text p {
+	padding-top: 21px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.projects {
+	width: 100%;
+	color: #6d6e71;
+}
+
+.projects::before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 26px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: 0px -193px;
+}
+
+.projects-wrap {
+	background-color: #efefef;
+}
+
+.projects-content {
+	position: relative;
+	width: 1160px;
+	margin: 0 auto;
+	padding: 32px 0 70px 0;
+}
+
+.projects-title {
+	margin: auto;
+	text-align: center;
+}
+
+.projects-title-image {
+	display: inline-block;
+	height: 151px;
+	width: 138px;
+	margin-left: 10px;
+	vertical-align: middle;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -1010px 0px;
+}
+
+.projects-title-text {
+	display: inline-block;
+	width: 32%;
+	padding-left: 30px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.projects-title-heading {
+	padding-top: 35px;
+	font-size: 44px;
+	font-weight: 700;
+}
+
+.projects-title-text p {
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.projects-menu {
+	padding: 79px 0 50px 0;
+	text-align: center;
+}
+
+.projects-menu li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.projects-menu-item {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-right: 8px;
+	border: 2px solid #bbbbbb;
+	border-radius: 4px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #bbbbbb;
+	text-transform: capitalize;
+}
+
+.projects-menu-item:hover {
+	border: 2px solid #fff;
+	color: #6d6e71;
+	background-color: #fff;
+}
+
+.projects-menu-all {
+	padding: 10px 50px;
+}
+
+.projects-menu-apps {
+	padding: 10px 30px;
+}
+
+.projects-menu-identities {
+	padding: 10px 42px;
+}
+
+.projects-menu-ui {
+	padding: 10px 27px;
+	text-transform: uppercase;
+	margin-right: 0;
+}
+
+.projects-item {
+	display: inline-block;
+	width: 278px;
+	margin: 0 11px 18px 0;
+	padding-top: 16px;
+	border-radius: 4px;
+	font-size: 0;
+	text-align: center;
+	vertical-align: top;
+	background-color: #fff;
+}
+
+.projects-item:nth-child(4),
+.projects-item:nth-child(8) {
+	margin-right: 0;
+}
+
+.projects-image-wrap {
+	display: inline-block;
+	width: 252px;
+	height: 209px;
+	border-radius: 4px;
+	background-color: #f5f5f5;
+}
+
+.projects-chain-wrap {
+	display: inline-block;
+	width: 50%;
+	padding: 18px 0 18px 0;
+	border-right: 1px solid #f5f5f5;
+}
+
+.projects-chain-wrap:hover {
+	opacity: 0.5;
+}
+
+.projects-chain {
+	height: 23px;
+	width: 23px;
+	margin: auto;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -512px 0;
+}
+
+.projects-plus-wrap {
+	display: inline-block;
+	width: 50%;
+	padding: 17px 0 18px 0;
+}
+
+.projects-plus-wrap:hover {
+	opacity: 0.5;
+}
+
+.projects-plus {
+	height: 24px;
+	width: 24px;
+	margin: auto;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -545px 0;
+}
+
+.arrow-up-circle {
+	position: absolute;
+	bottom: 80px;
+	right: -156px;
+	width: 98px;
+	height: 98px;
+	padding-top: 37px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.arrow-up-circle:hover {
+	box-shadow: 0 0 20px #6d6e71;
+}
+
+.arrow-up {
+	height: 24px;
+	width: 42px;
+	margin: auto;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -579px 0;
+}
+
+.page-footer {
+	width: 100%;
+	background-color: #2b2c2d;
+}
+
+.footer-content {
+	width: 1160px;
+	margin: 0 auto;
+	padding: 78px 0 32px 0;
+}
+
+.footer-contacts {
+	text-align: justify;
+}
+
+.footer-contacts::after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.footer-social {
+	display: inline-block;
+	font-size: 0;
+}
+
+.footer-social-container {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	border-left: 1px solid #3c3e3f;
+	padding: 21px 0 21px 0;
+}
+
+.footer-social-container:last-child {
+	border-right: 1px solid #3c3e3f;
+}
+
+.footer-fb {
+	height: 21px;
+	width: 21px;
+	margin: 0 22px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -631px 0;
+}
+
+.footer-social-container:hover .footer-fb {
+	background-position: -115px 0;
+}
+
+.footer-twitter {
+	height: 21px;
+	width: 25px;
+	margin: 0 19px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -662px 0;
+}
+
+.footer-social-container:hover .footer-twitter {
+	background-position: -146px 0;
+}
+
+.footer-instagram {
+	height: 21px;
+	width: 22px;
+	margin: 0 19px 0 21px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -697px 0;
+}
+
+.footer-social-container:hover .footer-instagram {
+	background-position: -181px 0;
+}
+
+.footer-google {
+	height: 21px;
+	width: 24px;
+	margin: 0 19px 0 20px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -729px 0;
+	}
+
+.footer-social-container:hover .footer-google {
+	background-position: -213px 0;
+}
+
+.footer-email {
+	position: relative;
+	display: inline-block;
+	padding-top: 7px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.footer-email::before {
+	content: "";
+	position: absolute;
+	top: 27px;
+	left: 20px;
+	height: 26px;
+	width: 32px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -763px 0;
+}
+
+.email-input {
+	width: 593px;
+	height: 66px;
+	padding: 0 95px 0 83px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #6d6e71;
+	background-color: #393b3c;
+}
+
+.email-button {
+	position: absolute;
+	top: 18px;
+	right: 9px;
+	width: 77px;
+	height: 45px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #6d6e71;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: #494c4d;
+}
+
+.email-button:hover {
+	box-shadow: 0 0 20px #6d6e71;
+}
+
+.footer-bottom {
+	padding-top: 41px;
+	color: #6d6e71;
+}
+
+.footer-bottom::after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.footer-copyright {
+	float: left;
+	font-size: 13px;
+	font-weight: 300;
+	color: #6d6e71;
+}
+
+.footer-information {
+	float: right;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.footer-information a {
+	color: #6d6e71;
+}
+
+.footer-information a:hover {
+	color: #eceef4;
+}
+
+.footer-information a:not(:last-child)::after {
+	content: "";
+	display: inline-block;
+	width: 5px;
+	height: 4px;
+	margin: 0 5px 0 7px;
+	background-image: url(https://i.lensdump.com/i/DgrA3.png);
+	background-position: -805px 0;
+}
